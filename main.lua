@@ -141,7 +141,7 @@ function love.draw()
 
     -- Draw start message
     if gameState == "start" then
-        love.graphics.printf("Press SPACE to start", 0, love.graphics.getHeight()/2, love.graphics.getWidth(), "center")
+        love.graphics.printf("Press SPACE to start the Game", 0, love.graphics.getHeight()/2, love.graphics.getWidth(), "center")
     end
 end
 
